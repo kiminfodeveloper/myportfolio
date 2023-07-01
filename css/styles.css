@@ -9,7 +9,7 @@ textarea {
 }
 
 body {
-    background-color: rgb(5, 5, 5);
+  background-color: rgb(5, 5, 5);
 }
 
 h2 {
@@ -57,9 +57,12 @@ h2 {
 #navbar-list li a {
   text-decoration: none;
   color: #fff;
+  transition: 0.5s;
 }
 
 #navbar-list li a:hover {
+  font-size: 18px;
+  color: #ccc;
   border-bottom: 1px solid #fff;
 }
 
@@ -86,6 +89,10 @@ h2 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+#banner-info a {
+  text-decoration: none;
+  color: #fff;
+}
 
 #banner-info p {
   background-color: #10115e;
@@ -95,6 +102,13 @@ h2 {
   margin-right: auto;
   width: 200px;
   padding: 15px;
+  transition: 1s;
+}
+#banner-info p:hover {
+  background-color: #020b31;
+  font-size: 20px;
+  width: 205px;
+  color: #ccc;
 }
 
 #about-section {
@@ -136,6 +150,7 @@ h2 {
   flex: 1 1 1;
   text-align: center;
   padding: 60px 25px;
+  max-width: 30%;
 }
 
 .central {
@@ -152,6 +167,19 @@ h2 {
   height: 60px;
   padding: 15px;
   margin-bottom: 25px;
+  border-top: 1px solid #10115e;
+  border-left: 1px solid #10115e;
+  border-bottom: 4px solid #10115e;
+  border-right: 4px solid #10115e;
+  transition: 0.7s;
+}
+.skills-container img:hover {
+  border-radius: 50%;
+  height: 80px;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-top: 1px solid #10115e;
+  border-left: 1px solid #10115e;
   border-bottom: 4px solid #10115e;
   border-right: 4px solid #10115e;
 }
@@ -205,10 +233,18 @@ h2 {
   background-size: cover;
   border-right: 2px solid #10115e;
   border-bottom: 2px solid #10115e;
+  transition: 0.7s;
+}
+
+.job-box:hover {
+  height: 370px;
+  border-radius: 20%;
+  background-size: cover;
+  transition: 0.7s;
 }
 
 .proj1 {
-  background-image: url("../img/proj1.jpg");
+  background-image: url("../img/perfil\ logo.png");
 }
 
 .proj2 {
@@ -249,6 +285,16 @@ footer textarea {
   width: 100%;
   display: block;
   border-radius: 1em;
+}
+.submit-btn {
+  cursor: pointer;
+  transition: 1s;
+}
+
+.submit-btn:hover {
+  background-color: #020b31;
+  color: #fff;
+  font-weight: bold;
 }
 
 footer .detail {
@@ -306,11 +352,13 @@ footer .detail {
     flex-direction: column;
   }
 
-  .skills-container h3, .skills-container .subtitle {
+  .skills-container h3,
+  .skills-container .subtitle {
     font-size: 1.3rem;
   }
 
   .skills-container {
+    max-width: 100%;
     padding: 25px;
   }
 
@@ -319,11 +367,13 @@ footer .detail {
     border-bottom: 1px solid #ccc;
   }
 
-#jobs-section h2, #jobs-section p {
+  #jobs-section h2,
+  #jobs-section p {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-}
+  }
+  
 
   .job-container {
     flex-direction: column;
