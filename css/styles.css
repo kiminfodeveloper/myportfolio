@@ -85,7 +85,7 @@ h2 {
 #banner-info img {
   height: 120px;
   border-radius: 50%;
-  border: 3px solid grey;
+  border: 3px solid #3fc2d7;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -373,7 +373,6 @@ footer .detail {
     margin-left: auto;
     margin-right: auto;
   }
-  
 
   .job-container {
     flex-direction: column;
