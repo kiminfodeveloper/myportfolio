@@ -1,200 +1,426 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Kevyn Melo</title>
+        <title>Kevyn Melo - Designer</title>
         <link rel="stylesheet" href="./css/styles.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
         <link rel="shortcut icon" href="img/logoico.png" type="image/x-icon" />
     </head>
     <body>
+        <div class="cursor"></div>
+        <div class="cursor-follower"></div>
+        
         <header id="navbar">
-            <a href="https://github.com/kiminfodeveloper"
-                ><img src="img/logo.png" alt="KIMINFOTEC"
-            /></a>
-            <h2>Kevyn Melo</h2>
-            <nav>
-                <ul id="navbar-list">
-                    <li>
-                        <a href="#about-section">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="#skills-section">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#jobs-section">Projetos</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contato</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div id="main-banner">
-                <div id="banner-info">
-                    <h1>Olá, eu sou o Kevyn Melo!</h1>
-                    <img src="img/kevyn.jpeg" alt="Perfil Ninja" />
-                    <a href="https://www.linkedin.com/in/kevyn-melo-6b99b4176/"
-                        ><p>Developer/Designer</p></a
-                    >
-                </div>
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="img/logo.png" alt="KIMINFOTEC" />
+                </a>
+                <h2>Kevyn Melo</h2>
+                <nav>
+                    <ul id="navbar-list">
+                        <li><a href="#about-section">Sobre</a></li>
+                        <li><a href="#skills-section">Habilidades</a></li>
+                        <li><a href="#portfolio-section">Portfólio</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
+        </header>
+
+        <main>
+            <section id="hero-section">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1 class="animate-text">Olá, eu sou o <span class="highlight">Kevyn Melo</span></h1>
+                            <h2 class="animate-text">Designer Gráfico & UI/UX</h2>
+                            <p class="animate-text">Transformando ideias em experiências visuais impactantes</p>
+                            <div class="hero-buttons">
+                                <a href="#portfolio-section" class="btn btn-primary">Ver Projetos</a>
+                                <a href="#contact" class="btn btn-secondary">Contato</a>
+                            </div>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/kevyn-melo-6b99b4176/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/kiminfodeveloper" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.behance.net/" target="_blank"><i class="fab fa-behance"></i></a>
+                            </div>
+                        </div>
+                        <div class="hero-image">
+                            <div class="image-container">
+                                <img src="img/kevyn.jpeg" alt="Kevyn Melo" />
+                            </div>
+                            <div class="floating-shapes">
+                                <div class="shape shape-1"></div>
+                                <div class="shape shape-2"></div>
+                                <div class="shape shape-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Scroll</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </section>
+
             <section id="about-section">
-                <h2>Quem é Kevyn Melo?</h2>
-                <p>
-                    Kevyn Melo é um talentoso programador frontend que possui
-                    sólidos conhecimentos em várias tecnologias e ferramentas
-                    essenciais para o desenvolvimento web. Seu conjunto de
-                    habilidades inclui HTML, CSS e JavaScript, que são as bases
-                    fundamentais para a criação de sites e aplicativos web
-                    interativos.
-                </p>
-                <p>
-                    No geral, Kevyn Melo é um programador frontend versátil e
-                    habilidoso, capaz de criar interfaces atraentes e funcionais
-                    usando HTML, CSS, JavaScript, React, Photoshop e CorelDraw.
-                    Sua combinação única de habilidades de programação e design
-                    o torna um profissional valioso no campo do desenvolvimento
-                    web.
-                </p>
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Sobre Mim</span>
+                        <h2>Quem é Kevyn Melo?</h2>
+                    </div>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>
+                                Sou um designer apaixonado por criar experiências visuais impactantes e interfaces intuitivas. 
+                                Com experiência em design gráfico e UI/UX, combino criatividade e técnica para desenvolver 
+                                soluções que conectam marcas e pessoas.
+                            </p>
+                            <p>
+                                Minha abordagem única integra design gráfico tradicional com as mais modernas ferramentas 
+                                digitais, permitindo criar projetos que são tanto esteticamente impressionantes quanto 
+                                funcionalmente eficientes.
+                            </p>
+                            <div class="about-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">5+</span>
+                                    <span class="stat-text">Anos de Experiência</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">50+</span>
+                                    <span class="stat-text">Projetos Concluídos</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">30+</span>
+                                    <span class="stat-text">Clientes Satisfeitos</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-image">
+                            <img src="img/about.jpg" alt="Kevyn Melo trabalhando" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills-section">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Minhas Habilidades</span>
+                        <h2>O que eu faço</h2>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <img src="img/photoshop.png" alt="Adobe Photoshop" />
+                            </div>
+                            <h3>Design Gráfico</h3>
+                            <p>
+                                Criação de identidades visuais, materiais impressos e digitais com foco em 
+                                branding e comunicação visual.
+                            </p>
+                            <div class="skill-tools">
+                                <span>Adobe Photoshop</span>
+                                <span>Illustrator</span>
+                                <span>CorelDraw</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <img src="img/figma.png" alt="Figma" />
+                            </div>
+                            <h3>UI/UX Design</h3>
+                            <p>
+                                Desenvolvimento de interfaces intuitivas e experiências digitais que encantam 
+                                os usuários e atendem às necessidades do negócio.
+                            </p>
+                            <div class="skill-tools">
+                                <span>Figma</span>
+                                <span>Adobe XD</span>
+                                <span>Prototipagem</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <img src="img/motion.png" alt="Motion Design" />
+                            </div>
+                            <h3>Motion Design</h3>
+                            <p>
+                                Criação de animações e conteúdo visual dinâmico para diferentes plataformas 
+                                e meios de comunicação.
+                            </p>
+                            <div class="skill-tools">
+                                <span>After Effects</span>
+                                <span>Premiere Pro</span>
+                                <span>Cinema 4D</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio-section">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Meu Trabalho</span>
+                        <h2>Portfólio</h2>
+                    </div>
+                    <div class="portfolio-filters">
+                        <button class="filter-btn active" data-filter="all">Todos</button>
+                        <button class="filter-btn" data-filter="branding">Branding</button>
+                        <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+                        <button class="filter-btn" data-filter="graphic">Design Gráfico</button>
+                    </div>
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item" data-category="branding">
+                            <div class="portfolio-image">
+                                <img src="img/1.png" alt="Projeto 1" />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <span class="portfolio-category">Branding</span>
+                                    <h3>Identidade Visual</h3>
+                                    <p>Branding completo para empresa de tecnologia</p>
+                                    <a href="#" class="portfolio-link">Ver Projeto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-category="ui-ux">
+                            <div class="portfolio-image">
+                                <img src="img/2.png" alt="Projeto 2" />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <span class="portfolio-category">UI/UX</span>
+                                    <h3>App Mobile</h3>
+                                    <p>App mobile para delivery de comida</p>
+                                    <a href="#" class="portfolio-link">Ver Projeto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-category="graphic">
+                            <div class="portfolio-image">
+                                <img src="img/3.png" alt="Projeto 3" />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <span class="portfolio-category">Design Gráfico</span>
+                                    <h3>Campanha Publicitária</h3>
+                                    <p>Campanha publicitária para rede de lojas</p>
+                                    <a href="#" class="portfolio-link">Ver Projeto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-category="branding">
+                            <div class="portfolio-image">
+                                <img src="img/4.png" alt="Projeto 4" />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <span class="portfolio-category">Branding</span>
+                                    <h3>Identidade Visual</h3>
+                                    <p>Rebranding para startup de tecnologia</p>
+                                    <a href="#" class="portfolio-link">Ver Projeto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-category="ui-ux">
+                            <div class="portfolio-image">
+                                <img src="img/5.png" alt="Projeto 5" />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <span class="portfolio-category">UI/UX</span>
+                                    <h3>Website</h3>
+                                    <p>Design de website para restaurante</p>
+                                    <a href="#" class="portfolio-link">Ver Projeto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item" data-category="graphic">
+                            <div class="portfolio-image">
+                                <img src="img/6.png" alt="Projeto 6" />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <span class="portfolio-category">Design Gráfico</span>
+                                    <h3>Material Impresso</h3>
+                                    <p>Catálogo de produtos para loja</p>
+                                    <a href="#" class="portfolio-link">Ver Projeto</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-more">
+                        <a href="https://github.com/kiminfodeveloper" class="btn btn-outline">Ver Mais Projetos</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="testimonials-section">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Depoimentos</span>
+                        <h2>O que meus clientes dizem</h2>
+                    </div>
+                    <div class="testimonials-slider">
+                        <div class="testimonial-item">
+                            <div class="testimonial-content">
+                                <p>"Kevyn transformou completamente a identidade visual da nossa empresa. Seu trabalho superou todas as expectativas e trouxe resultados impressionantes para o nosso negócio."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="img/client1.jpg" alt="Cliente 1" />
+                                <div class="author-info">
+                                    <h4>Ana Silva</h4>
+                                    <p>CEO, TechStart</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-content">
+                                <p>"O design da nossa interface de usuário criado pelo Kevyn foi fundamental para o sucesso do nosso aplicativo. A usabilidade e a estética são perfeitas!"</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="img/client2.jpg" alt="Cliente 2" />
+                                <div class="author-info">
+                                    <h4>Carlos Oliveira</h4>
+                                    <p>CTO, AppDelivery</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-content">
+                                <p>"Trabalhar com o Kevyn foi uma experiência incrível. Ele entendeu perfeitamente nossa visão e transformou em um design que superou nossas expectativas."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="img/client3.jpg" alt="Cliente 3" />
+                                <div class="author-info">
+                                    <h4>Mariana Costa</h4>
+                                    <p>Marketing, FashionStore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-controls">
+                        <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Contato</span>
+                        <h2>Vamos trabalhar juntos?</h2>
+                    </div>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <p>
+                                Estou sempre aberto a novos projetos e oportunidades de colaboração.
+                                Entre em contato para discutirmos suas ideias!
+                            </p>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <div>
+                                        <h4>Email</h4>
+                                        <p>kiminfotec@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <div>
+                                        <h4>Telefone</h4>
+                                        <p>+55 (11) 99999-9999</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div>
+                                        <h4>Localização</h4>
+                                        <p>São Paulo, Brasil</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/kevyn-melo-6b99b4176/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/kiminfodeveloper" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.behance.net/" target="_blank"><i class="fab fa-behance"></i></a>
+                            </div>
+                        </div>
+                        <div class="contact-form">
+                            <form id="contact-form" action="" method="">
+                                <div class="form-group">
+                                    <input type="text" name="name" placeholder="Seu nome" required />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" placeholder="Seu e-mail" required />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="subject" placeholder="Assunto" required />
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="msg" placeholder="Conte-me sobre seu projeto" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
-        <section id="skills-section">
-            <div class="container">
-                <div class="skills-container">
-                    <img src="img/html5.png" alt="HTML" />
-                    <h3>Desenvolvimento</h3>
-                    <p>
-                        Com HTML, CSS, SASS, Styled-Components, Bootstrap 5,
-                        JavaScript e React, você pode criar projetos web
-                        incríveis.
-                    </p>
-                    <p class="subtitle">Linguagens que utilizo:</p>
-                    <p>
-                        HTML5, CSS3, SASS, Styled-Components, Bootstrap5,
-                        JavaScript, React.
-                    </p>
-                    <p class="subtitle">Projetos que posso desenvolver:</p>
-                    <p>
-                        E-commerces, Site institucionais, Sistemas de Qualquer
-                        Complexidade.
-                    </p>
-                </div>
-                <div class="skills-container central">
-                    <img src="img/photoshop.png" alt="First Skill" />
-                    <h3>Designer</h3>
-                    <p>
-                        Com o Photoshop CC, CorelDraw, Illustrator, Figma e XD,
-                        você pode criar projetos de design visual e gráfico
-                        impressionantes.
-                    </p>
-                    <p class="subtitle">Softwares/Sites:</p>
-                    <p>
-                        Adobe Photoshop CC, Adobe XD, CorelDraw Graphics Suites,
-                        Figma
-                    </p>
-                    <p class="subtitle">O que posso fazer:</p>
-                    <p>
-                        No Photoshop, eu posso editar e aprimorar imagens, criar
-                        composições artísticas e designs de interface de
-                        usuário. No CorelDraw, eu posso criar designs gráficos,
-                        logotipos, layouts de embalagens e ilustrações
-                        vetoriais. No Adobe XD, eu posso desenvolver protótipos
-                        interativos de interfaces de usuário e experiências
-                        digitais. No Figma, eu posso criar designs de interface
-                        de usuário responsivos, protótipos interativos e
-                        colaborar com equipes em tempo real.
-                    </p>
-                </div>
-                <div class="skills-container">
-                    <img src="img/excel.png" alt="First Skill" />
-                    <h3>Análise de Dados</h3>
-                    <p>Excel é uma ferramenta maravilhosa para dados</p>
-                    <p class="subtitle">Analista</p>
-                    <p>Excel</p>
-                    <p class="subtitle">O que posso fazer:</p>
-                    <p>
-                        Análise de dados: Habilidade em trabalhar com grandes
-                        conjuntos de dados, aplicar fórmulas e criar
-                        visualizações para extrair informações valiosas.
-                        Modelagem e previsão: Capacidade de criar modelos
-                        financeiros, realizar análises estatísticas e fazer
-                        previsões baseadas em dados. Automação de tarefas:
-                        Experiência em automatizar tarefas repetitivas usando
-                        macros e programação VBA para aumentar a eficiência.
-                        Visualização de dados: Habilidade em criar gráficos e
-                        dashboards interativos para comunicar informações
-                        complexas de maneira clara. Análise financeira:
-                        Competência em elaborar planilhas de orçamento, avaliar
-                        a rentabilidade de investimentos e realizar análises
-                        financeiras. Solução de problemas: Capacidade de
-                        identificar e solucionar problemas relacionados a
-                        fórmulas, dados e processos no Excel. Conhecimento
-                        avançado de fórmulas e funções: Domínio de fórmulas e
-                        funções avançadas do Excel para realizar cálculos
-                        complexos e obter insights precisos.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section id="jobs-section">
-            <h2>Veja meus últimos trabalhos de Designer</h2>
-            <p>
-                Aqui estão os meus trabalhos mais recentes, para ver todos
-                <a href="https://github.com/kiminfodeveloper">clique aqui.</a>
-            </p>
-            <div class="job-container">
-                <div class="job-box proj1"></div>
-                <div class="job-box proj2"></div>
-                <div class="job-box proj3"></div>
-            </div>
-            <div class="job-container">
-                <div class="job-box proj4"></div>
-                <div class="job-box proj5"></div>
-                <div class="job-box proj6"></div>
-            </div>
-            <div class="job-container">
-                <div class="job-box proj7"></div>
-                <div class="job-box proj8"></div>
-                <div class="job-box proj9"></div>
-            </div>
-            <div class="job-container">
-                <div class="job-box proj10"></div>
-                <div class="job-box proj11"></div>
-                <div class="job-box proj12"></div>
-            </div>
-            <!-- this refresh -->
-        </section>
+
         <footer>
-            <h2>Me mande uma mensagem</h2>
-            <p>
-                Caso queira falar sobre algum projeto, me contratar para algum
-                projeto, ou falar sobre a KIMINFOTEC
-            </p>
-            <img src="img/logo.png" alt="KIMINFOTEC" />
-            <form id="contact" action="" method="">
-                <input type="text" name="name" placeholder="Seu nome" />
-                <input type="email" name="email" placeholder="Seu e-mail" />
-                <textarea
-                    name="msg"
-                    placeholder="Digite uma mensagem"
-                ></textarea>
-                <input class="submit-btn" type="submit" value="Enviar" />
-            </form>
-            <p>
-                Desenvolvido por
-                <span class="detail">Kevyn Melo - KIMINFOTEC</span> &copy; -
-                2023
-            </p>
-            <p>Contato em: <span class="detail">kiminfotec@gmail.com</span></p>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="img/logo.png" alt="KIMINFOTEC" />
+                        <p>Transformando ideias em experiências visuais impactantes</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Links Rápidos</h4>
+                        <ul>
+                            <li><a href="#about-section">Sobre</a></li>
+                            <li><a href="#skills-section">Habilidades</a></li>
+                            <li><a href="#portfolio-section">Portfólio</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Inscreva-se para receber novidades e atualizações</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Seu e-mail" />
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>
+                        Desenvolvido por
+                        <span class="detail">Kevyn Melo - KIMINFOTEC</span> &copy; 2024
+                    </p>
+                </div>
+            </div>
         </footer>
+
+        <script src="./js/main.js"></script>
     </body>
 </html>
